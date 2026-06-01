@@ -1,0 +1,12 @@
+let numero;
+let positivos = 0;
+while (true){
+    numero = Number(prompt("Digite um número (0 para sair):"));
+    if (numero === 0){
+        break;
+    }
+    if (numero > 0){
+        positivos++;
+    }
+}
+alert("Quantidade de números positivos: " + positivos);
