@@ -1,0 +1,9 @@
+const extenso = ["primeira", "segunda", "terceira", "quarta", "quinta"];
+let somanotas = 0;
+for (let i = 0; i < 5; i++){
+    let nota = parseFloat(prompt(`Digite a ${extenso[i]} nota do aluno:`));
+    somanotas += nota;
+}
+let media = somanotas / 5;
+alert(`A soma das notas é: ${somanotas}`);
+alert(`A média final do aluno é: ${media.toFixed(2)}`); 
