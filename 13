@@ -1,0 +1,5 @@
+let numero = 0; 
+while (numero % 2 === 0){
+    numero = parseInt(prompt("Digite um número:"));
+}
+alert(`Pare, o número ${numero} é ímpar`);
