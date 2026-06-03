@@ -1,0 +1,10 @@
+let numero;
+let contadornegativos = 0;
+do{
+    numero = Number(prompt("Digite um número qualquer ou 0 para sair:"));
+    if (numero < 0) {
+        contadornegativos++;
+    }
+}while (numero !== 0); 
+alert(`Você digitou ${contadornegativos} número(s) negativo(s)`);
+alert(`Você digitou ${contadornegativos} número(s) negativo(s)`);
