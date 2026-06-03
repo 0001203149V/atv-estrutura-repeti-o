@@ -1,0 +1,23 @@
+let opcao;
+do{
+    opcao = Number(prompt(
+        " Menu interativo\n"+
+        "1 - Iniciar\n"+
+        "2 - Ajuda\n"+
+        "3 - Sair\n\n"+
+        "Escolha uma opção:" ));
+    switch (opcao) {
+        case 1:
+            alert("Iniciando o programa. Seja bem-vindo!");
+            break;
+        case 2:
+            alert("Área de Ajuda: Para sair do programa, digite a opção 3");
+            break;
+        case 3:
+            alert("Saindo do sistema. Até logo!");
+            break;
+        default:
+            alert("Opção inválida. Por favor escolha 1, 2 ou 3");
+            break;
+    }
+} while (opcao !== 3); 
